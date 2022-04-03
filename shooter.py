@@ -5,7 +5,7 @@ font.init()
 font1 = font.Font(None, 80)
 lose = font1.render('You Lose', True, (180, 0 , 0))
 win = font1.render('You win', True, (180, 0 , 0))
-max_score = 100
+max_score = 120
 
 class GameSprite(sprite.Sprite):
     def __init__(self,player_img, player_x, player_y, size_x, size_y, player_speed):
